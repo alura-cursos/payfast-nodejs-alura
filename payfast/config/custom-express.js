@@ -10,6 +10,7 @@ module.exports = function(){
 
   consign()
    .include('controllers')
+   .then('persistencia')
    .into(app);
 
   return app;
