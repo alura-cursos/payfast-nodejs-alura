@@ -1,6 +1,15 @@
 {
-    "forma_de_pagamento":"payfast",
+  "pagamento":{
+    "forma_de_pagamento":"cartao",
     "valor":98.53 ,
     "moeda":"USD",
     "descricao":"criando um pagamento"
+  },
+  "cartao":{
+    "numero":1234123412341234,
+    "bandeira":"visa",
+    "ano_de_expiracao":2016,
+    "mes_de_expiracao":12,
+    "cvv":123
+  }
 }
