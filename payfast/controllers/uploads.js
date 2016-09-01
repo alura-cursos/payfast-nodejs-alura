@@ -1,5 +1,4 @@
 var fs = require('fs');
-
 module.exports = function(app){
 
   app.post("/upload/imagem", function(req, res){
