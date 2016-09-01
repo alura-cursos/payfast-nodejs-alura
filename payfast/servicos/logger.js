@@ -1,4 +1,9 @@
 var winston = require('winston');
+var fs = require('fs');
+
+if(!fs.existsSync('logs')){
+  fs.mkdirSync('logs');
+}
 
 module.exports = new winston.Logger({
   transports: [
